@@ -1,0 +1,26 @@
+<md-sidenav #sidenav mode="side" opened="true" class="sidebar">
+  <div class="side-profile-section">
+    <div class="side-avatar">
+      <img src="../../../assets/svg/kids-avatar/girl-5.svg">
+    </div>
+    <h3 class="welcome-message">Welcome {{profile.userName}}</h3>
+  </div>
+  <nav class="sidebar-nav">
+    <ul class="nav">
+      <li class="nav-item">
+        <a md-button class="nav-link" routerLinkActive="active" [routerLink]="['/dashboard']"><img class="sidebar-img" src="../../../assets/svg/common/speedometer.svg">&nbsp; Dashboard </a>
+      </li>
+      <li appNavDropdown class="nav-item nav-dropdown" routerLinkActive="open">
+        <a md-button appNavDropdownToggle class="nav-link nav-dropdown-toggle" routerLinkActive="active"><img class="sidebar-img" src="../../../assets/svg/common/pet.svg">&nbsp; Relationship </a>
+        <ul class="nav-dropdown-items">
+          <li class="nav-item">
+            <a md-button class="nav-link" routerLinkActive="active" [routerLink]="['/relationship/friends']"><img class="sidebar-img" src="../../../assets/svg/common/heart.svg">&nbsp; Friends </a>
+          </li>
+        </ul>
+      </li>
+      <li appNavDropdown class="nav-item nav-dropdown" routerLinkActive="open">
+        <a md-button class="nav-link" routerLinkActive="active" [routerLink]="['/profile']"><img class="sidebar-img" src="../../../assets/svg/common/001-cogwheel-1.svg">&nbsp; Profile </a>
+      </li>
+    </ul>
+  </nav>
+</md-sidenav>
