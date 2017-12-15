@@ -1,6 +1,6 @@
 # RichPdf
 
-[![codecov](https://codecov.io/gh/webcat12345/rich-pdf-ngx/branch/master/graph/badge.svg)](https://codecov.io/gh/webcat12345/rich-pdf-ngx)  [![Build Status](https://travis-ci.org/webcat12345/rich-pdf-ngx.svg?branch=master)](https://travis-ci.org/webcat12345/rich-pdf-ngx)  [![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge&style=flat)](https://rich-pdf-ngx.herokuapp.com/)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge&style=flat)](https://rich-pdf-ngx.herokuapp.com/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 ### UI
